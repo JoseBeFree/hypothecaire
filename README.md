@@ -1,7 +1,7 @@
 # Mortgage Brokers Component Installation
 
 
-Add this to functions.php on your custom theme
+Add this to `functions.php` on your custom theme
 
 ```php
 add_action('wp_enqueue_scripts', 'propulsoft_custom_scripts');
@@ -21,39 +21,39 @@ function propulsoft_custom_scripts() {
 
 ## Full calculator
 ```html
-<div id=”full_calculator”></div>
+<div id="full_calculator"></div>
 <script>
 jQuery().ready(function() {
-	jQuery(“#full_calculator”).calculator(lang);
+	jQuery("#full_calculator").calculator(lang);
 });
 </script>
 ```
 ## Simple Calculator
 ```html
-<div id=”simple_calculator”></div>
+<div id="simple_calculator"></div>
 <script>
 jQuery().ready(function() {
-	jQuery(“#simple_calculator”).simple_calculator(lang);
+	jQuery("#simple_calculator").simple_calculator(lang);
 });
 </script>
 ```
 
 ## Call Form
 ```html
-<div id=”call_form”></div>
+<div id="call_form"></div>
 <script>
 jQuery().ready(function() {
-	jQuery(“#call_form”).call_form(lang, open, optional);
+	jQuery("#call_form").call_form(lang, open, optional);
 });
 </script>
 ```
 
 ## Service Form
 ```html
-<div id=”service_form”></div>
+<div id="service_form"></div>
 <script>
 jQuery().ready(function() {
-	jQuery(“#service_form”).service_form(lang, open);
+	jQuery("#service_form").service_form(lang, open);
 });
 </script>
 
