@@ -24,7 +24,7 @@ function propulsoft_custom_scripts() {
 <div id="full_calculator"></div>
 <script>
 jQuery().ready(function() {
-	jQuery("#full_calculator").calculator(lang);
+	jQuery("#full_calculator").calculator(lang, contact_btn);
 });
 </script>
 ```
@@ -67,3 +67,5 @@ jQuery().ready(function() {
 
 
 > `optional` Variable set like `true` or `false` - shows the optional label in the view
+
+> `contact_btn` Variable set as string - This is route for the redirection button: default: /contact or /en/contact on english
